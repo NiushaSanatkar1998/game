@@ -1,0 +1,98 @@
+#game {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgba(233, 187, 134, 0.524);
+  box-shadow: 5px 5px 5px lightgrey;
+  text-align: center;
+  height: 600px;
+  font-family: cursive;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.cbtn {
+  line-height: 30px;
+  width: 150px;
+  height: 60px;
+  box-shadow: 5px 5px 5px rgb(36, 34, 34);
+  color: rgb(44, 42, 42);
+  font-size: 20px;
+  font-family: cursive;
+}
+.cbtn:hover {
+  background-color: rgb(68, 175, 108);
+  border: 1px double black;
+  border-radius: 5px;
+
+}
+#playerText {
+  width: 98%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: 5px 5px 5px rgb(142, 140, 140);
+  background-color: rgb(161, 175, 231);
+  color: rgb(8, 8, 19);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#playerText:hover {
+  background-color: rgb(173, 201, 246);
+}
+#computerText {
+  width: 98%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: 5px 5px 5px rgb(142, 140, 140);
+  background-color: rgb(235, 165, 154);
+  color: rgb(16, 13, 13);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#computerText:hover {
+  background-color: rgb(241, 171, 145);
+}
+#resultText {
+  width: 98%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-color: rgb(183, 235, 141);
+  color: rgb(6, 10, 6);
+  box-shadow: 5px 5px 5px rgb(142, 140, 140);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#resultText:hover {
+  background-color: rgb(188, 245, 103);
+}
+.imm {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+.imm > img {
+  width: 97%;
+  height: 97%;
+  border-radius: 20px;
+  margin-top: 8px;
+  padding-top: 5px;
+  box-shadow: 10px 10px 10px rgb(24, 24, 24);
+}
+.imm > img:hover{
+    transform:  scale(1.02, 1.02);
+    transition: 100ms;
+}
